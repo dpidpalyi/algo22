@@ -18,7 +18,6 @@ START_TEST(test_PutAt_1) {
 }
 END_TEST
 
-
 START_TEST(test_PutAt_2) {
   DynamicArray22 *da = NewDynamicArray22(1);
   int err = PutAt(da, 0, 10);
