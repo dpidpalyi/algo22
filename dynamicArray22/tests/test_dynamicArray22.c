@@ -7,6 +7,9 @@ int main() {
                                   test_AllocAndCopy(),
                                   test_Put(),
                                   test_PutAt(),
+                                  test_RemoveLast(),
+                                  test_RemoveAt(),
+                                  test_ReplaceAt(),
                                   NULL};
   for (int i = 0; test_dynamicArray22[i] != NULL; i++) {
     SRunner *runner = srunner_create(test_dynamicArray22[i]);

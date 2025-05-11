@@ -11,5 +11,8 @@ Suite *test_DestroyDynamicArray22(void);
 Suite *test_AllocAndCopy(void);
 Suite *test_Put(void);
 Suite *test_PutAt(void);
+Suite *test_RemoveLast(void);
+Suite *test_RemoveAt(void);
+Suite *test_ReplaceAt(void);
 
 #endif

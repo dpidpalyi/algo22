@@ -133,23 +133,3 @@ void PrintDynamicArray22(DynamicArray22 *da) {
   }
   printf("\nsize = %d, capacity = %d\n", da->size, da->capacity);
 }
-
-// int main() {
-//	DynamicArray22 *da = NewDynamicArray22(2);
-//	int err = Put(da, 10);
-//	err = Put(da, 20);
-//	err = PutAt(da, 1, 30);
-//	PrintDynamicArray22(da);
-//	(void)err;
-//
-//	RemoveLast(da);
-//	PrintDynamicArray22(da);
-//	RemoveLast(da);
-//	PrintDynamicArray22(da);
-//	RemoveLast(da);
-//	PrintDynamicArray22(da);
-//	err = Put(da, 10);
-//	PrintDynamicArray22(da);
-//
-//	err = DestroyDynamicArray22(da);
-//}
